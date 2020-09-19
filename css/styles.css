@@ -406,17 +406,18 @@ hr {
 
 .social-link-team:hover,
 .social-link-team:focus {
+    fill: var(--color-white);
     background: var(--color-blue);
 }
 
-.social-icon-team{
+.social-icon-team {
     fill: #AFB1B8;
 }
 
 .social-icon-team:hover,
 .social-icon-team:focus {
-    fill: var(--color-white);
-    background: var(--color-blue);
+    /* fill: var(--color-white); */
+    /* background: var(--color-blue); */
 }
 
 .clients {
